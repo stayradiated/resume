@@ -19,16 +19,16 @@ const EXPERIENCE = [
     role: 'Senior Software Developer',
     date: 'Dec 2016 — Nov 2019',
     description: `
-- Developed features across both the front-end and back-end. Responsible for gathering requirements, estimating time required, and sharing the workload with other team members.
-- Mentored other developers in advanced TypeScript techniques, and helped them to write maintainable code and helpful documentation.
-- Championed processes to improve communication between team members across multiple time-zones, and developed custom Slack applications to increase productivity.
-- Reverse-engineered Android applications, and developed fault-tolerant microservices to interact with their respective private APIs.
+- Planned and developed features across both the front-end and back-end. Responsible for gathering requirements, estimating time required, and sharing workload with other team members.
+- Mentored other developers in advanced JavaScript techniques, writing maintainable code.
+- Lead the migration of a large REST API service into a scaleable, maintainable and high performance GraphQL API.
+- Championed processes to improve communication between team members across multiple timezones, and developed internal Slack integrations to increase productivity.
+- Transforming video clips, reverse engineering applications, integrating with third party APIs in a responsible and fault tolerant manner, developing internal tools.
     `,
     tags: [
       'TypeScript',
       'GraphQL',
       'React',
-      'AVA',
       'Node.js',
       'MySQL',
       'Kubernetes',
@@ -36,14 +36,16 @@ const EXPERIENCE = [
     ],
   },
   {
-    company: 'Spark Ventures / Lightbox TV',
-    role: 'Full-Stack Software Developer',
+    company: 'Spark Ventures / Lightbox',
+    role: 'Software Developer',
     date: 'Jul 2015 — Dec 2016',
     description: `
-- Developed and successfully executed a plan to iteratively migrate the front-end from Angular to React.
-- Built a GraphQL API to wrap several third-party REST APIs to improve the end-user experience.
-- Worked with management to develop a process for releasing libraries under an open source license.
-- Implemented several website features using third-party services, including payment processing, live chat support, and DRM video playback.
+- Worked as a full-stack developer on the Lightbox TV streaming website.
+- Helped to iteratively migrate the front-end from Angular to React.
+- the team to use the GraphQL. Multiple third party REST APIs were replaced with a single API to improve client performance.
+- Responsible for developing interactive components, implementing CI/CD
+- Released the first open source project for the company. Worked with management to sort out licensing and document the procedure.
+- Implemented several features using 3rd party integrations, including live chat, payment processing, and DRM video playback.
     `,
     tags: [
       'JavaScript',
@@ -51,7 +53,9 @@ const EXPERIENCE = [
       'GraphQL',
       'React',
       'Redux',
-      'DRM Video',
+      'Silverlight',
+      'Video DRM',
+      'Salesforce CRM',
       'AWS',
     ],
   },
@@ -63,14 +67,7 @@ const EXPERIENCE = [
 - Developed a new marketing website based on existing designs. The site was built with React, and optimized for high performance with server-side rendering.
 - Implemented a single-sign-on authentication system using Auth0 and Discourse.
 `,
-    tags: [
-      'JavaScript',
-      'React',
-      'Server-Side Rendering',
-      'Node.js',
-      'Contentful',
-      'Auth0',
-    ],
+    tags: ['JavaScript', 'React', 'Server-Side Rendering', 'Node.js', 'Contentful', 'Auth0'],
   },
   {
     company: 'Self-Employed ',
@@ -80,14 +77,7 @@ const EXPERIENCE = [
 - Designing, developing and maintaining websites for several local schools and businesses.
 - Development of custom CMS plug-ins for clients that require integration with existing services.
     `,
-    tags: [
-      'PHP',
-      'Apache',
-      'JavaScript',
-      'SilverStripe',
-      'Wordpress',
-      'Static Site Generator',
-    ],
+    tags: ['PHP', 'Apache', 'JavaScript', 'SilverStripe', 'Wordpress', 'Static Site Generator'],
   },
 ]
 
@@ -240,7 +230,7 @@ const Home = () => (
           max-width: none;
           margin: 0;
           padding: 0;
-          font-size: 0.93em;
+          font-size: 0.9em;
         }
       }
     `}</style>
