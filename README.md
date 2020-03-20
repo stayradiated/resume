@@ -1,4 +1,6 @@
-# [hire.george.czabania](https://hire.george.czabania.com)
+# [hire.george.czabania.com](https://hire.george.czabania.com)
+
+> My 2020 Résumé. Built using Next.js.
 
 ## Development
 
