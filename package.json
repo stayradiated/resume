@@ -9,7 +9,7 @@
     "start": "next start",
     "tidy": "pkg-tidy"
   },
-  "srcPath": "./components",
+  "srcPath": "components",
   "dependencies": {
     "next": "9.3.1",
     "react": "16.13.1",
