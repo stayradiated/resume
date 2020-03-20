@@ -1,3 +1,5 @@
 module.exports = {
-  distDir: 'build',
+  exportPathMap: async (defaultPathMap, { dev, dir, outDir, distDir, buildId }) => ({
+    '/': { page: '/' },
+  })
 }
