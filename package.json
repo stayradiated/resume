@@ -1,0 +1,20 @@
+{
+  "name": "@stayradiated/resume",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "tidy": "pkg-tidy"
+  },
+  "srcPath": "./components",
+  "dependencies": {
+    "next": "9.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@stayradiated/pkg": "4.2.0"
+  }
+}
