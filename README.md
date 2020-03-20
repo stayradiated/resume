@@ -1,6 +1,10 @@
-# [My Resume](https://hire.george.czabania.com)
+# [hire.george.czabania](https://hire.george.czabania.com)
 
-```
+## Development
+
+```bash
+git clone https://github.com/stayradiated/resume
+cd resume
 yarn
-yarn start
+yarn dev
 ```
